@@ -31,7 +31,7 @@ namespace UnitTestingExercise.Tests
         }
 
         [Theory]
-        [InlineData(6, 2, 3)]
+        [InlineData(6, 3, 3)]
         [InlineData(3, 2, 1)]
         [InlineData(7, 4, 3)]
         [InlineData(-4, -7, 3)]
@@ -57,7 +57,7 @@ namespace UnitTestingExercise.Tests
         [Theory]
         [InlineData(2, 3, 6)]
         [InlineData(3, 7, 21)]
-        [InlineData(-4, -7, -28)]
+        [InlineData(-4, 7, -28)]
         [InlineData(3, 8, 24)]
         [InlineData(4, 9, 36)]
         public void MultiplyTest(int num1, int num2, int expected)

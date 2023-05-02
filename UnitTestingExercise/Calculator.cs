@@ -27,7 +27,7 @@ namespace UnitTestingExercise
 
         public int Subtract(int minuend, int subtrahend)
         {
-            return minuend - subtrahend;
+            return minuend - (subtrahend);
         }
 
 
